@@ -48,6 +48,8 @@ El proyecto está dividido en cuatro etapas principales:
 
 🔹 Machine Learning (Regresión, TF-IDF, Cosine Similarity, Modelos de Recomendación)
 
+📂 Estructura del Repositorio
+
 📂 wine-recommendation-project  
 │── 📂 data               # Contiene los datasets utilizados en el análisis  
 │   │── winemag-data-130k-v2.csv            # Dataset original de Kaggle  
