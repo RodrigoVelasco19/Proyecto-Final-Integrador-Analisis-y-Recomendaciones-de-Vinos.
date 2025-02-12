@@ -56,7 +56,7 @@ El proyecto está dividido en cuatro etapas principales:
 │   │── winemag-data_first150k.csv          # Segundo dataset de Kaggle  
 │   │── wine_reviews_cleaned.csv            # Dataset procesado después de EDA & ETL  
 │  
-│── 📂 notebooks          # Jupyter Notebooks con el desarrollo del proyecto  
+│── 📂 notebooks          # Notebooks con el desarrollo del proyecto  
 │   │── 01_EDA_ETL.ipynb                      # Exploración y limpieza de datos  
 │   │── 02_Analisis_Precios_Calidad.ipynb      # Relación precio-calidad y predicción de precios  
 │   │── 03_Analisis_Sentimiento_NLP.ipynb      # Análisis de sentimiento en reseñas  
