@@ -47,3 +47,29 @@ El proyecto está dividido en cuatro etapas principales:
 🔹 Visualización (Matplotlib, Seaborn, WordCloud)
 
 🔹 Machine Learning (Regresión, TF-IDF, Cosine Similarity, Modelos de Recomendación)
+
+📂 wine-recommendation-project  
+│── 📂 data               # Contiene los datasets utilizados en el análisis  
+│   │── winemag-data-130k-v2.csv            # Dataset original de Kaggle  
+│   │── winemag-data_first150k.csv          # Segundo dataset de Kaggle  
+│   │── wine_reviews_cleaned.csv            # Dataset procesado después de EDA & ETL  
+│  
+│── 📂 notebooks          # Jupyter Notebooks con el desarrollo del proyecto  
+│   │── 01_EDA_ETL.ipynb                      # Exploración y limpieza de datos  
+│   │── 02_Analisis_Precios_Calidad.ipynb      # Relación precio-calidad y predicción de precios  
+│   │── 03_Analisis_Sentimiento_NLP.ipynb      # Análisis de sentimiento en reseñas  
+│   │── 04_Modelo_Recomendacion.ipynb         # Modelos de recomendación de vinos  
+│  
+│── 📂 models             # Modelos entrenados (si se guardan)  
+│   │── sentiment_model.pkl            # Modelo de análisis de sentimiento  
+│   │── wine_recommendation_model.pkl  # Modelo de recomendación basado en contenido  
+│  
+│── 📂 utils              # Funciones auxiliares utilizadas en los notebooks  
+│   │── preprocessing.py           # Funciones para limpieza y preprocesamiento de datos  
+│   │── recommendation.py          # Funciones para el sistema de recomendación  
+│  
+│── requirements.txt      # Lista de librerías necesarias para ejecutar el proyecto  
+│── README.md             # Descripción del proyecto  
+│── main.py               # Script principal para ejecutar el modelo de recomendación  
+
+
