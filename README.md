@@ -50,7 +50,7 @@ El proyecto está dividido en cuatro etapas principales:
 
 📂 Estructura del Repositorio
 
-📂 wine-recommendation-project  
+📂 Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos  
 │── 📂 data               # Contiene los datasets utilizados en el análisis  
 │   │── winemag-data-130k-v2.csv            # Dataset original de Kaggle  
 │   │── winemag-data_first150k.csv          # Segundo dataset de Kaggle  
