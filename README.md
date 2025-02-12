@@ -12,3 +12,11 @@ Este proyecto es el resultado de un análisis integral del dataset de reseñas d
 🔹 Análisis de Sentimiento (NLP): Procesamiento de reseñas para detectar sentimientos positivos o negativos.
 
 🔹 Sistema de Recomendación basado en contenido: Recomendaciones según similitudes en características de los vinos.
+
+🚀 Tecnologías Utilizadas
+
+🔹 Python (Pandas, NumPy, Scikit-learn, NLTK)
+
+🔹 Visualización (Matplotlib, Seaborn, WordCloud)
+
+🔹 Machine Learning (Regresión, TF-IDF, Cosine Similarity, Modelos de Recomendación)
