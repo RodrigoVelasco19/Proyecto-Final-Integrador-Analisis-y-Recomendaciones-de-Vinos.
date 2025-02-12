@@ -1,2 +1,2 @@
-# Proyecto-Final-Integrador-An-lisis-y-Recomendaciones-de-Vinos.
+# Proyecto Final Integrador: Análisis y Recomendaciones de Vinos.
 Este proyecto es el resultado de un análisis integral del dataset de reseñas de vinos de Kaggle (Wine Reviews). Se han aplicado técnicas de Exploración y Transformación de Datos (EDA y ETL), Machine Learning y Procesamiento de Lenguaje Natural (NLP) para extraer información valiosa y construir un sistema de recomendación de vinos basado en reseñas.
