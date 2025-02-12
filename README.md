@@ -3,15 +3,28 @@ Este proyecto es el resultado de un análisis integral del dataset de reseñas d
 
 📊 Contenido del Proyecto
 
-🔹 EDA y ETL: Análisis preliminar y limpieza de datos.
+El proyecto está dividido en cuatro etapas principales:
 
-🔹 Análisis de Precios y Factores de Calidad: Evaluación de la relación calidad/precio por país y variedad.
+🔍 1. Exploración y Limpieza de Datos (EDA & ETL)
 
-🔹 Predicción de Precios: Modelo de regresión para estimar el precio de un vino según sus características.
-
-🔹 Análisis de Sentimiento (NLP): Procesamiento de reseñas para detectar sentimientos positivos o negativos.
-
-🔹 Sistema de Recomendación basado en contenido: Recomendaciones según similitudes en características de los vinos.
+      🔹 Carga del dataset desde la API de Kaggle.
+      
+      🔹 Análisis exploratorio para identificar valores nulos, duplicados e inconsistencias.
+Manejo de valores faltantes y justificación de las estrategias aplicadas.
+Visualización de distribuciones y patrones clave.
+Creación de nuevas variables (ej. segmentación de precios en rangos).
+📊 2. Análisis de Precios y Factores de Calidad
+Evaluación de la relación entre precio y puntuación de los vinos.
+Identificación de regiones y variedades de uva con mejor relación calidad-precio.
+Aplicación de técnicas de regresión para predecir el precio de un vino según sus características.
+🧠 3. Análisis de Sentimiento en Reseñas (NLP)
+Limpieza de datos: eliminación de stopwords, stemming y lematización.
+Análisis de frecuencia de palabras en vinos bien puntuados vs. mal puntuados.
+Construcción de un modelo de análisis de sentimiento para clasificar reseñas como positivas o negativas.
+Visualización de resultados con nubes de palabras.
+🍷 4. Sistema de Recomendación de Vinos
+Modelo basado en contenido: recomendaciones en función de similitudes en características como variedad, país y bodega.
+Modelo basado en filtrado colaborativo: recomendaciones según la similitud entre puntuaciones de usuarios.
 
 🚀 Tecnologías Utilizadas
 
