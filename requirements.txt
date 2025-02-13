@@ -1,0 +1,25 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import os
+from google.colab import files
+from google.colab import drive
+import pickle
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.ensemble import RandomForestRegressor
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+from textblob import Word
+from textblob import TextBlob
+from sklearn.feature_extraction.text import CountVectorizer
+from wordcloud import WordCloud
+from sklearn.feature_extraction.text import TfidfVectorizer
+from scipy.sparse import hstack
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
