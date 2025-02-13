@@ -65,12 +65,10 @@ El proyecto está dividido en cuatro etapas principales:
 │   │── 04_Modelo_Recomendacion.ipynb         # Modelos de recomendación de vinos  
 │  
 │── 📂 utils              # Funciones auxiliares utilizadas en los notebooks  
-│   │── remove_stopwords.py                 # Función para eliminar stopwords de texto en inglés 
-│   │── lemmatize_text.py                   # Función para lematizar texto
-│   │── analizar_frecuencia_palabras.py    # Función para analizar las palabras más comunes en una columna de texto de un DataFrame.
+│   │── remove_stopwords.py                     # Función para eliminar stopwords de texto en inglés  
+│   │── lemmatize_text.py     # Función para lematizar texto
+│   │── analizar_frecuencia_palabras.py     # Función para analizar las palabras más comunes en una columna de texto de un DataFrame.
 │  
 │── requirements.txt      # Lista de librerías necesarias para ejecutar el proyecto  
 │── README.md             # Descripción del proyecto  
-
-
 
