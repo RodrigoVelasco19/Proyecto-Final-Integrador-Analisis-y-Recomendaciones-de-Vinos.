@@ -1,4 +1,6 @@
 # Proyecto Final Integrador: Análisis y Recomendaciones de Vinos.
+<img src="https://raw.githubusercontent.com/RodrigoVelasco19/Imagenes/main/Vino2.jpg" width="70%">
+
 Este proyecto es el resultado de un análisis integral del dataset de reseñas de vinos de Kaggle (Wine Reviews). Se han aplicado técnicas de Exploración y Transformación de Datos (EDA y ETL), Machine Learning y Procesamiento de Lenguaje Natural (NLP) para extraer información valiosa y construir un sistema de recomendación de vinos basado en reseñas.
 
 📊 Contenido del Proyecto
@@ -58,20 +60,17 @@ El proyecto está dividido en cuatro etapas principales:
 │  
 │── 📂 notebooks          # Notebooks con el desarrollo del proyecto  
 │   │── 01_EDA_ETL.ipynb                      # Exploración y limpieza de datos  
-│   │── 02_Analisis_Precios_Calidad.ipynb      # Relación precio-calidad y predicción de precios  
-│   │── 03_Analisis_Sentimiento_NLP.ipynb      # Análisis de sentimiento en reseñas  
+│   │── 02_Analisis_Precios_Calidad.ipynb     # Relación precio-calidad y predicción de precios  
+│   │── 03_Analisis_Sentimiento_NLP.ipynb     # Análisis de sentimiento en reseñas  
 │   │── 04_Modelo_Recomendacion.ipynb         # Modelos de recomendación de vinos  
 │  
-│── 📂 models             # Modelos entrenados (si se guardan)  
-│   │── sentiment_model.pkl            # Modelo de análisis de sentimiento  
-│   │── wine_recommendation_model.pkl  # Modelo de recomendación basado en contenido  
-│  
 │── 📂 utils              # Funciones auxiliares utilizadas en los notebooks  
-│   │── preprocessing.py           # Funciones para limpieza y preprocesamiento de datos  
-│   │── recommendation.py          # Funciones para el sistema de recomendación  
+│   │── remove_stopwords.py                 # Función para eliminar stopwords de texto en inglés 
+│   │── lemmatize_text.py                   # Función para lematizar texto
+│   │── analizar_frecuencia_palabras.py    # Función para analizar las palabras más comunes en una columna de texto de un DataFrame.
 │  
 │── requirements.txt      # Lista de librerías necesarias para ejecutar el proyecto  
 │── README.md             # Descripción del proyecto  
-│── main.py               # Script principal para ejecutar el modelo de recomendación  
+
 
 
