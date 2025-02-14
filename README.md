@@ -74,4 +74,34 @@ El proyecto está dividido en cuatro etapas principales:
 │── requirements.txt      # Lista de librerías necesarias para ejecutar el proyecto  
 │── README.md             # Descripción del proyecto  
 
-  
+## Resumen y conclusiones
+
+1. Exploración y Limpieza de Datos (EDA & ETL)
+   
+   🔹 Los datos de partida para el proyecto son 2 datasets de Kaggle, cuya información es similar: cada fila representa un vino, y la información referida al mismo se distribuye en varias columnas: país de origen, reseña, puntaje, precio, etc.
+
+   🔹 Se unió toda la información en un único dataframe concatenando la información original. A su vez, se decide eliminar las columnas que no aportan información relevante respecto a los objetivos definidos para el proyecto.
+
+   🔹 El df resultante de la concatenación posee 280.901 filas. En base a la relevancia para los objetivos del proyecto, se conservaron las siguientes 7 columnas:
+
+         country: País de origen del vino.
+
+         description: Reseña escrita del vino. Puede incluir notas de sabor, aroma y recomendaciones.
+
+         points: Puntuación del vino en una escala de 0 a 100, donde valores más altos indican mejor calidad.
+
+         price: Precio del vino en dólares.
+
+         province: Provincia o estado dentro del país donde se produce el vino.
+
+         variety: Tipo de uva con la que se produce el vino (ej. Cabernet Sauvignon, Merlot, Malbec).
+
+         winery: Nombre de la bodega que produce el vino.
+   
+   🔹 Se eliminaron las filas duplicadas y aquellas que poseian valores nulos.
+
+   🔹 Para evitar distorsiones, se eliminaron los precios identificados como outliers.
+   
+<img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./imagenes/main/Vino2.jpg" width="70%">
+   
+    
