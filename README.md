@@ -157,3 +157,5 @@ El proyecto está dividido en cuatro etapas principales:
     🔹 Se generó un modelo de recomendación basado en contenido. Este le permite al usuario del código ingresar un vino específico o un determinado n° de vinos del dataset, y obtener los 5 vinos más similares recomendados con sus caracteristicas.
 
     🔹 Se utilizó la métrica NDCG (Normalized Discounted Cumulative Gain) para evaluar el rendimiento del modelo, obteniendo muy buenos resultados (NDCG=1 para las pruebas realizadas.
+
+   Enlace para descarga de la documentación del proyecto desde Google Drive: https://drive.google.com/drive/folders/1VvTNtDvC4_crhakG8VTjwQzmZdk0yB9Q?usp=drive_link
