@@ -102,6 +102,5 @@ El proyecto está dividido en cuatro etapas principales:
 
    🔹 Para evitar distorsiones, se eliminaron los precios identificados como outliers.
    
-<img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./imagenes/main/Vino2.jpg" width="70%">
-   
-    
+![Boxplot Precio](https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Boxplot%20precio.jpg)
+
