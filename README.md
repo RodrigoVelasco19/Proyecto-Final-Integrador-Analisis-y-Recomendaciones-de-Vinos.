@@ -16,9 +16,7 @@ El proyecto está dividido en cuatro etapas principales:
       🔹 Manejo de valores faltantes y justificación de las estrategias aplicadas.
       
       🔹 Visualización de distribuciones y patrones clave.
-      
-      🔹 Creación de nuevas variables (ej. segmentación de precios en rangos).
-      
+                 
 📊 2. Análisis de Precios y Factores de Calidad
 
       🔹 Evaluación de la relación entre precio y puntuación de los vinos.
@@ -127,4 +125,29 @@ El proyecto está dividido en cuatro etapas principales:
     🔹 Se analizó la distribución de vinos por variedad.
    
     <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Distribución%20por%20variedad.jpg" alt="Boxplot Precio" width="600">  
+
+2. Análisis de Precios y Factores de Calidad
+
+    🔹 Se analiza la distribución de calidad/precio en los distintos vinos.
+
+     <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Distribución%20calidad-precio.jpg" alt="Boxplot Precio" width="600"> 
+
+    🔹 Se analiza que regiones y variedades de uva presentar valores más elevados de este indicador.
+
+     <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Distribución%20calidad-precio%20por%20pais.jpg" alt="Boxplot Precio" width="600"> 
+
+     <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Distribución%20calidad-precio%20por%20variedad.jpg" alt="Boxplot Precio" width="600"> 
+
+    🔹 Se generaron modelos para predecir el precio de un vino en base a las caracteristicas: puntuacion, pais, provincia y variedad.
+
+      - Mediante un modelo de Regresión Lineal se obtuvo el siguiente rendimiento: Mean Squared Error (MSE)= 136.9 y R^2 Score =0.47.
+
+      - Mediante un modelo de Random Forest se obtuvo el siguiente rendimiento: Mean Squared Error (MSE)= 127.6 y R^2 Score =0.50.
    
+3. Análisis de Sentimiento en Reseñas (NLP)
+
+    🔹 Mediante la aplicación de Procesamiento de Lenguaje Natural (NLP) sobre las descripciones de los vinos, se identificaron las palabras más frecuentes en los vinos mejor y peor valorados.
+
+     <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Nube%20de%20palabras%20descripción%20vinos%20mejor%20puntuados.jpg" alt="Boxplot Precio" width="600"> 
+
+    🔹 Se elaboró un modelo de análisis de sentimiento de las descripciones de los vinos, para clasificar las mismas como positivas o negativas y como objetivas o subjetivas.
