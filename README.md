@@ -48,6 +48,8 @@ El proyecto está dividido en cuatro etapas principales:
 
 🔹 Machine Learning (Regresión, TF-IDF, Cosine Similarity, Modelos de Recomendación)
 
+
+
 📂 Estructura del Repositorio
 
 📂 Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos  
