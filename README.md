@@ -151,3 +151,9 @@ El proyecto está dividido en cuatro etapas principales:
      <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Nube%20de%20palabras%20descripción%20vinos%20mejor%20puntuados.jpg" alt="Boxplot Precio" width="600"> 
 
     🔹 Se elaboró un modelo de análisis de sentimiento de las descripciones de los vinos, para clasificar las mismas como positivas o negativas y como objetivas o subjetivas.
+
+4. Sistema de Recomendación de Vinos
+
+    🔹 Se generó un modelo de recomendación basado en contenido. Este le permite al usuario del código ingresar un vino específico o un determinado n° de vinos del dataset, y obtener los 5 vinos más similares recomendados con sus caracteristicas.
+
+    🔹 Se utilizó la métrica NDCG (Normalized Discounted Cumulative Gain) para evaluar el rendimiento del modelo, obteniendo muy buenos resultados (NDCG=1 para las pruebas realizadas.
