@@ -101,6 +101,30 @@ El proyecto está dividido en cuatro etapas principales:
    🔹 Se eliminaron las filas duplicadas y aquellas que poseian valores nulos.
 
    🔹 Para evitar distorsiones, se eliminaron los precios identificados como outliers.
-   
-![Boxplot Precio](https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Boxplot%20precio.jpg)
 
+      <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Boxplot%20precio.jpg" alt="Boxplot Precio" width="600">
+
+   🔹 Por representar pocos valores y encontrarse dentro de la escala lógica, se mantuvieron las puntuaciones identificadas como outliers.
+
+    <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Boxplot%20puntuación.jpg" alt="Boxplot Precio" width="600">  
+
+    🔹 Se analizó la distribución de vinos en función de la puntuación (valores discretos).
+   
+     <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Distribución%20puntuación.jpg" alt="Boxplot Precio" width="600">  
+
+    🔹 Se analizó la distribución de vinos en función del precio (valores continuos).
+   
+    <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Distribución%20precio.jpg" alt="Boxplot Precio" width="600">  
+
+    🔹 Se analizó la correlación que existe entre la puntuación y el precio de los vinos.
+
+    <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Correlación%20entre%20puntuación%20y%20precio.jpg" alt="Boxplot Precio" width="600">  
+
+    🔹 Se analizó la distribución de vinos por país.
+   
+   <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Distribución%20por%20país.jpg" alt="Boxplot Precio" width="600">  
+
+    🔹 Se analizó la distribución de vinos por variedad.
+   
+    <img src="https://raw.githubusercontent.com/RodrigoVelasco19/Proyecto-Final-Integrador-Analisis-y-Recomendaciones-de-Vinos./main/images/Distribución%20por%20variedad.jpg" alt="Boxplot Precio" width="600">  
+   
